@@ -3,6 +3,8 @@ import AvailablePlayerCard from '../availblePlayerCard/AvailablePlayerCard';
 import SelectedPlayers from '../selected/SelectedPlayers';
 import { toast } from 'react-toastify';
 
+
+
 const Available = ({ availableData, balance, setBalance }) => {
     const [active, setActive] = useState('available')
 
